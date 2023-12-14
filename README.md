@@ -12,7 +12,7 @@ To use this library in your Android project, add the following dependency to you
 ```gradle
 // build.gradle.kts
 dependencies {
-    implementation("com.github.jolenechong:androidWordCloud:1.0.1") {
+    implementation("com.github.jolenechong:androidWordCloud:1.0.0") {
         // exclude due to duplicate classes with the 
         // edu.stanford.nlp:stanford-corenlp dependency for data processing
         exclude(group="com.sun.xml.bind", module="jaxb-core")
